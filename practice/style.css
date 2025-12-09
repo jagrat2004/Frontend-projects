@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+h1 {
+    height: 40px;
+    width: 110px;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid; 
+    border-color: rgb(201, 28, 28);
+    background-color: khaki;
+    font-size: 30px;
+    
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 50px;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid; 
+   
+}
+
+

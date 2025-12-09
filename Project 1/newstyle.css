@@ -1,0 +1,141 @@
+body{
+    font-style: arial;
+    background:black;
+
+}
+.animation-box{
+    width:75%;
+    height:27.5rem;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+.first-text{
+    font-style:4.4rem;
+    color:white;
+    position:absolute;
+    left:2.5rem;
+    top:5rem;
+    opacity:0;
+    animation-name : Propose1;
+    animation-duration:5s;
+
+}
+.second-text{
+    font-style:3.0rem;
+    color:white;
+    position:absolute;
+    
+    top:8rem;
+    opacity:0;
+    animation-name : Propose2;
+    animation-duration:5s;
+    animation-delay: 4.5s;
+
+}
+.third-text{
+    font-style:2.0rem;
+    color:white;
+    position:absolute;
+    left:45%;
+    top:45%;
+    opacity:0;
+    animation-name : Propose3;
+    animation-duration:5s;
+    animation-delay: 9s;
+    transform:rotate(-90deg);
+    white-space:nowrap;
+}
+.fourth-text{
+    font-style:3.0rem;
+    color:rgb(240,68,63);
+    position:absolute;
+    left:10%;
+    top:10rem;
+    opacity:0;
+    animation-name : Propose4;
+    animation-duration:7s;
+    animation-delay: 13.5s;
+
+}
+.fifth-text{
+    font-style:3.5rem;
+    color:rgb(229,249,99);
+    position:absolute;
+    left:5%;
+    bottom: 25%;
+    opacity:0;
+    animation-name : Propose5;
+    animation-duration:19.5s;
+    animation-delay: 18s;
+}
+@keyframes Propose1{
+    0%{
+        top:-3rem;
+        opacity: 0;
+    }
+    75%{
+        top:25%;
+        opacity: 1;
+    }
+    100%{
+        
+        opacity: 0;
+    }
+}
+@keyframes Propose2{
+    0%{
+        top:-3rem;
+        opacity: 0;
+    }
+    75%{
+        top:45%;
+        opacity: 1;
+    }
+    100%{
+        
+        opacity: 0;
+    }
+}
+@keyframes Propose3{
+    0%{
+        top:-3rem;
+        opacity: 0;
+    }
+    75%{
+        top:45%;
+        opacity: 1;
+    }
+    100%{
+       
+        opacity: 0;
+    }
+}
+@keyframes Propose4{
+    0%{
+        right:-3rem;
+        opacity: 0;
+    }
+    75%{
+        right:10rem;
+        opacity: 1;
+    }
+    100%{
+        right:10rem;
+        opacity: 0;
+    }
+}
+@keyframes Propose5{
+    0%{
+        
+        opacity: 0;
+    }
+    75%{
+        
+        opacity: 1;
+    }
+    100%{
+      
+        opacity: 0;
+    }
+}
