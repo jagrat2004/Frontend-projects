@@ -19,4 +19,4 @@ If you use VS Code, the Live Server extension works well: right-click an `index.
 - Keep assets (images, sounds, fonts) in a local `assets/` or `sounds/` directory inside the project folder.
 - When adding a new project, use a descriptive folder name and include a short README inside the project folder explaining how to run it.
 
-Generated on 2025-12-12.
+
